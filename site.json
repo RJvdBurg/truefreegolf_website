@@ -14,11 +14,7 @@
     },
     {
       "href": "over.html",
-      "label": "Over"
-    },
-    {
-      "href": "contact.html",
-      "label": "Contact"
+      "label": "About"
     }
   ],
   "footer": {
@@ -33,11 +29,7 @@
           },
           {
             "href": "over.html",
-            "label": "Over"
-          },
-          {
-            "href": "contact.html",
-            "label": "Contact"
+            "label": "About"
           }
         ]
       }
