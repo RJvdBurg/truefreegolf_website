@@ -23,6 +23,10 @@
     {
       "label": "OSM how to",
       "href": "osm.html"
+    },
+    {
+      "href": "about.html",
+      "label": "About"
     }
   ],
   "footer": {
