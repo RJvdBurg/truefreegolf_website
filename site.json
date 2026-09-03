@@ -1,7 +1,7 @@
 {
   "brand": "TrueFreeGolf",
-  "logo": "assets/logo.svg",
-  "logoWhite": "assets/logo-white.svg",
+  "logo": "assets/logo.png",
+  "logoWhite": "assets/logo-white.png",
   "logoAlt": "TrueFreeGolf",
   "cta": {
     "label": "Contact",
