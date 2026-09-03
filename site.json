@@ -1,0 +1,63 @@
+{
+  "brand": "TrueFreeGolf",
+  "logo": "assets/logo.svg",
+  "logoWhite": "assets/logo-white.svg",
+  "logoAlt": "TrueFreeGolf",
+  "cta": {
+    "label": "Contact",
+    "href": "contact.html"
+  },
+  "nav": [
+    {
+      "href": "index.html",
+      "label": "Home"
+    },
+    {
+      "href": "over.html",
+      "label": "Over"
+    },
+    {
+      "href": "contact.html",
+      "label": "Contact"
+    }
+  ],
+  "footer": {
+    "tagline": "Een korte pay-off over je merk.",
+    "columns": [
+      {
+        "title": "Navigatie",
+        "links": [
+          {
+            "href": "index.html",
+            "label": "Home"
+          },
+          {
+            "href": "over.html",
+            "label": "Over"
+          },
+          {
+            "href": "contact.html",
+            "label": "Contact"
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Contact",
+      "address": [
+        "Straat 1",
+        "1234 AB Plaats"
+      ],
+      "phone": "",
+      "phoneHref": "",
+      "email": "info@example.com"
+    },
+    "bottom": "© 2026 TrueFreeGolf"
+  },
+  "social": [],
+  "whatsapp": {
+    "number": "",
+    "text": "",
+    "label": ""
+  }
+}
