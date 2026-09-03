@@ -1,0 +1,11 @@
+{
+  "siteName": "TrueFreeGolf",
+  "siteUrl": "",
+  "branch": "main",
+  "imgDir": "images",
+  "ga4": "",
+  "model": "gemini-flash-latest",
+  "autoJsonld": true,
+  "themeBase": "https://rjvdburg.github.io/truefreegolf_theme/",
+  "sysPrompt": ""
+}
