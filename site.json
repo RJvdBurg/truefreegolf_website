@@ -4,7 +4,7 @@
   "logoWhite": "assets/logo-white.png",
   "logoAlt": "TrueFreeGolf",
   "cta": {
-    "label": "Contact",
+    "label": "",
     "href": "contact.html"
   },
   "nav": [
