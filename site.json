@@ -32,10 +32,6 @@
             "label": "Home"
           },
           {
-            "href": "over.html",
-            "label": "About"
-          },
-          {
             "label": "FAQ",
             "href": "faq.html"
           },
