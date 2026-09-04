@@ -22,10 +22,11 @@
   }
 }
 </script>
-<!-- CMS:JSONLD:END --><!-- CMS:THEMECSS:START --><style>
+<!-- CMS:JSONLD:END --><!-- CMS:THEMECSS:START -->
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 :root{
-  --carousel-caption-gap:1rem; /* ruimte tussen afbeelding en tekst in een carousel-kaart */
+  --carousel-caption-gap:3rem; /* ruimte tussen afbeelding en tekst in een carousel-kaart */
   --grad:linear-gradient(135deg,#15803D 0%,#2F9E5C 45%,#48BB78 100%);
   --grad-soft:linear-gradient(135deg,rgba(21,128,61,0.1),rgba(47,158,92,0.1) 45%,rgba(72,187,120,0.1));
   --purple:#0D2E1B;--purple-600:#2b3149;--purple-50:#eef0f6;--purple-900:#141726;
@@ -204,7 +205,7 @@ img{max-width:100%;display:block}
 .faq summary{cursor:pointer;font-family:var(--fdisplay);font-weight:600;color:var(--purple);font-size:1.08rem;padding:1.1rem 0;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";color:var(--pink);font-size:1.5rem;line-height:1;flex-shrink:0}
-.faq details[open] summary::after{content:"2"}
+.faq details[open] summary::after{content:"\2212"}
 .faq details p{color:var(--n500);padding:0 0 1.2rem;line-height:1.75;margin:0}
 /* Werkgebied-regio's */
 .regio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}
@@ -297,7 +298,9 @@ body{max-width:1500px;margin-inline:auto;overflow-x:clip}
 /* Kaart-variant (afbeelding + titel/tekst): duw de tekst een stukje onder de
    afbeelding. Instelbaar via de theme-variabele --carousel-caption-gap. */
 .carousel .card-body{margin-top:var(--carousel-caption-gap)}
-</style><!-- CMS:THEMECSS:END --></head><body>
+
+</style>
+<!-- CMS:THEMECSS:END --></head><body>
 <!-- CMS:HEADER:START -->
 <header class="site-header" id="siteHeader"><nav class="nav"><a href="index.html" class="logo" aria-label="TrueFreeGolf home"><img src="assets/logo.png" alt="TrueFreeGolf"></a><ul class="nav-links"><li><a href="index.html" class="active">Home</a></li><li><a href="over.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="osm.html">OSM how to</a></li><li><a href="about.html">About</a></li></ul><button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button></nav><div class="mobile-menu" id="mobileMenu"><a href="index.html">Home</a><a href="over.html">About</a><a href="faq.html">FAQ</a><a href="osm.html">OSM how to</a><a href="about.html">About</a></div></header>
 <!-- CMS:HEADER:END -->
