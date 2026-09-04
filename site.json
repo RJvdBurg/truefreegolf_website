@@ -13,20 +13,12 @@
       "label": "Home"
     },
     {
-      "href": "over.html",
-      "label": "About"
-    },
-    {
       "label": "FAQ",
       "href": "faq.html"
     },
     {
       "label": "OSM how to",
       "href": "osm.html"
-    },
-    {
-      "href": "about.html",
-      "label": "About"
     }
   ],
   "footer": {
